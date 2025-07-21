@@ -1,0 +1,8 @@
+curl -X POST http://localhost:8000/simulator/get_responseLLM \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "cd7371b6-192f-4a1a-97a5-f62ca5529ca9",
+    "message": "hi",
+    "language": "FR",
+    "canal": "WEBSITE"
+  }'
